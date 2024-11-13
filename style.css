@@ -1,26 +1,130 @@
-*{
-    padding: 0;
+
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .header h1 {
+    font-size: 20px;
     margin: 0;
-    box-sizing: border-box;
-}
+  }
 
 
-#navegador ul{
-    list-style-type: none ;
-    text-align: center;
+  .nav {
     background-color: black;
+    overflow: hidden;
+    padding: 1px 0;
+  }
+
+  .nav a {
     color: white;
-}
-
-#navegador li{
-    display: inline;
-    text-align: right;
-    margin: 0 10px 0 0;
-}
-
-#navegador li a{
-    padding: 2px 7px 2px 7px ;
+    padding: 14px 20px;
     text-decoration: none;
+    float: right;
+  }
+
+  .nav a:hover {
+    background-color: black;
+  }
+
+
+  .content {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-text {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .content-text h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .content-text p {
+    font-size: 16px;
+    color: black;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: black;
     color: white;
-}
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .btn:hover {
+    background-color: black;
+  }
+
+
+  
+
+  .padre{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+
+  .hijo1 {
+    display: flex;
+    align-items: center;
+    
+  }
+
+   .padre-2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+   }
+
+  .hijo-2{
+    background-color: black;
+    color: white;
+    
+  }
+
+  .recycle{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .etiqueta{
+    display: flex;
+    margin: 5px;
+  }
+  .etiqueta img{
+    width: 80px;
+    height: 80px;
+  }
+  .final{
+    text-align: center;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
