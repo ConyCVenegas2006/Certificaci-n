@@ -20,23 +20,7 @@
   }
 
 
-  .nav {
-    background-color: black;
-    overflow: hidden;
-    padding: 1px 0;
-  }
-
-  .nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    float: right;
-  }
-
-  .nav a:hover {
-    background-color: black;
-  }
-
+ 
 
   .content {
     display: flex;
@@ -99,11 +83,13 @@
     margin: 0 auto;
     background-color: black;
     color: white;
+    text-decoration: none;
    }
 
   .hijo-2{
     background-color: black;
     color: white;
+    text-decoration: none;
     
   }
 
@@ -127,4 +113,95 @@
     text-align: center;
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0% 1%;
+   
+   }
+   .LUI{
+       
+       display: flex;
+       list-style: none;
+       justify-content: space-evenly;
+       align-items: center;
+   
+   }
+   
+   li{
+       padding: 20px 10px;
+   }
+   
+   .boton{
+   
+       background-color: aqua;
+       color: white;
+       text-align: right;
+       
+   
+   }
+   .perfil{
+   
+       color: rgb(255, 255, 255) ;
+       background-color: black;
+       display: flex;
+       
+   }
+   
+   .casa{
+   
+   color: white;
+   text-decoration: none;
+   
+   }
+   
+   .miperfil{
+   
+       color: white;
+       text-decoration: none;
+   }
+   
+   .conexion{
+   
+       color: white ;
+       text-decoration: none ;
+   
+   }
+
+   .conctact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+  }
+  .conctact-form form {
+    max-width: 500em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  .conctact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .conctact-form form .input-box input,
+  .conctact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+  }
+  .imput-box{
+    background-color: black;
+    color: white;
   }
